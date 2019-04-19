@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Contact Us</h2>
+
+<div id="root"></div>
+
+@section scripts{
+    <script src="~/Scripts/react/dist/bundle.js"></script>
+}
+
+<style type="text/css">
+    .form-control.error {
+        border-color: red;
+        background-color: #FFF6F6;
+    }
+
+    span.error {
+        color: red;
+    }
+
+    .servermessage {
+        font-size: 32px;
+        margin-top: 20px;
+    }
+</style>
